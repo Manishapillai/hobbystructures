@@ -1,0 +1,38 @@
+* git init
+ -initialize git
+
+* git checkout -b <branchname>
+ -create a branch
+
+* git checkout <branchname>
+ -switch to that branch
+
+* git diff --cached
+ - --cached means show the changes in the cache/index (i.e. staged changes) 
+against the current HEAD. --staged is a synonym for --cached
+
+* git diff 
+ - between the working directory and the index
+
+* git add
+ -add files to be staged
+
+* git pull --rebase 
+  - updates the current branch with remote 
+
+git merge <branchname>
+- merge <branchname> with current branch 
+
+git commit -m
+- commit with message
+
+git checkout -d <branchname>
+- delete branch
+
+git merge <branchname>
+- merge <branchname> with current branch 
+
+git pull --rebase
+
+git pull origin master
+
