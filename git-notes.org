@@ -36,3 +36,6 @@ git pull --rebase
 
 git pull origin master
 
+git merge --abort
+ - abort a merge
+
